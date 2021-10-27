@@ -290,8 +290,8 @@ instx %{_libdir}/libnvidia-gtk2.so.%{version}
 instx %{_libdir}/libnvidia-gtk3.so.%{version}
 
 # IFR
-instx %{_libdir}/libnvidia-ifr.so.%{version}
-sl nvidia-ifr 1
+#instx %{_libdir}/libnvidia-ifr.so.%{version}
+#sl nvidia-ifr 1
 
 # VDPAU
 instx %{_libdir}/vdpau/libvdpau_nvidia.so.%{version}
@@ -371,7 +371,7 @@ inst /lib/modules/%{cskdir}/kernel/drivers/video/nvidia-uvm.ko
 %{_libdir}/libnvidia-fbc.so*
 %{_libdir}/libnvidia-gtk2.so*
 %{_libdir}/libnvidia-gtk3.so*
-%{_libdir}/libnvidia-ifr.so*
+#{_libdir}/libnvidia-ifr.so*
 %{_libdir}/vdpau/libvdpau_nvidia.so*
 %{_bindir}/nvidia-bug-report.sh
 %{_bindir}/nvidia-smi
@@ -403,7 +403,7 @@ inst /lib/modules/%{cskdir}/kernel/drivers/video/nvidia-uvm.ko
 %{_prefix}/lib/libnvidia-opencl.so*
 %{_prefix}/lib/libnvidia-encode.so*
 %{_prefix}/lib/libnvidia-fbc.so*
-%{_prefix}/lib/libnvidia-ifr.so*
+#{_prefix}/lib/libnvidia-ifr.so*
 %{_prefix}/lib/vdpau/libvdpau_nvidia.so*
 %{_prefix}/lib/libnvidia-glvkspirv.so*
 %endif
