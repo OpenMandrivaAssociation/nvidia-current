@@ -3,7 +3,7 @@
 
 Summary:	Binary-only driver for nvidia graphics chips
 Name:		nvidia-current
-Version:	495.44
+Version:	495.46
 Release:	1
 ExclusiveArch:	%{x86_64}
 Url:		http://www.nvidia.com/object/unix.html
