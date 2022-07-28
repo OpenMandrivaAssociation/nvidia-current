@@ -1,4 +1,3 @@
 sources:
-  NVIDIA-Linux-x86_64-515.57.run: 8fd44df6db39286f08b488d4bfa6ea128c3a350f
-  NVIDIA-Linux-aarch64-515.57.run: be0aa0d27c646aee94bd5f7bd650db68fa2512fc
-  
+  NVIDIA-Linux-x86_64-495.46.run: 283f29ac17e00b37fd930df682d3439a7d846740
+  NVIDIA-Linux-aarch64-495.46.run: 4c294344b2a245af62b376369a664cb9004a142b
