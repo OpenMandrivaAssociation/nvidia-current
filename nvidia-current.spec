@@ -6,7 +6,7 @@ Name:		nvidia-current
 Version:	495.46
 Release:	9
 ExclusiveArch:	%{x86_64} %{aarch64}
-Url:		http://www.nvidia.com/object/unix.html
+Url:		https://www.nvidia.com/object/unix.html
 Source0:	http://download.nvidia.com/XFree86/Linux-x86_64/%{version}/NVIDIA-Linux-x86_64-%{version}.run
 Source1:	http://download.nvidia.com/XFree86/Linux-aarch64/NVIDIA-Linux-aarch64-%{version}.run
 Source10:	https://gitweb.frugalware.org/frugalware-current/raw/master/source/x11-extra/nvidia/xorg-nvidia.conf
