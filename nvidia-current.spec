@@ -16,6 +16,7 @@ Group:		Hardware
 License:	distributable
 # Just to be on the safe side, it may not be wise
 # to load clang-built modules into a gcc-built kernel
+BuildRequires:	make
 BuildRequires:	gcc
 Requires:	%{name}-kernel-modules = %{EVRD}
 Requires:	libglvnd-egl
